@@ -32,7 +32,8 @@
             <field name="view_id" ref="view_test_tree"/>
         </record>
 
-        <menuitem action="action_view_test_tree" id="test_menu_item" parent="menu_test_item" sequence="5"/>
+        <menuitem id="menu_test_item" name="Test" sequence="0"/>
+	<menuitem action="action_view_test_tree" id="test_menu_item" parent="menu_test_item" sequence="5"/>
     </data>
 </odoo>
 
